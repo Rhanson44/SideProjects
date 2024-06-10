@@ -17,8 +17,6 @@ public class Calculator {
 			System.out.println("Choose operator:");
 			System.out.println("1: +, 2: -, 3: *, 4: /");
 			operator = scan.nextInt();
-			if (operator > 4 || operator < 1)
-			operator = 5;	
 
 			System.out.println("Enter first number:");
 			double num1 = scan.nextDouble();
